@@ -1,3 +1,9 @@
+<%@page import="java.sql.ResultSet"%>
+<%@page import="java.sql.Statement"%>
+<%@page import="java.sql.Connection"%>
+<%@page import="javax.sql.DataSource"%>
+<%@page import="javax.naming.InitialContext"%>
+<%@page import="javax.naming.Context"%>
 <%@taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core"%>
 <%@taglib prefix="sql" uri="http://java.sun.com/jsp/jstl/sql"%>
 <%-- 
@@ -48,7 +54,8 @@
                 <h1> Добро пожаловать на сайт Центрального ботанического сада </h1>
                 <p>   Центральный ботанический сад является самым крупным в стране центром по сохранению биоразнообразия живых растений, ведущим научным учреждением в области интродукции, акклиматизации, физиологии, молекулярной биологии, биотехнологии, биохимии и экологии растений. Исследования и практическая работа в области интродукции растений обеспечила создание генофонда декоративных и хозяйственно-полезных интродуцированных растений из более 10 тысяч наименований.
                 </p>
-                
+               
+    </table>
             </div>
         </div>
 

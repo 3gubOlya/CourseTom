@@ -1,16 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Context antiJARLocking="true" path="/Course">
   <Resource
-      name="jdbc/CourseDB"
+      name="jdbc/CourseProject"
       type="javax.sql.DataSource"
       username="root"
       password="123456789"
       driverClassName="com.mysql.jdbc.Driver"
       maxIdle="8"
       maxWait="10000"
-      url="jdbc:mysql://127.0.0.1:3306/CourseBase"
+      url="jdbc:mysql://127.0.0.1:3306/courseproject"
       maxActive="4">
-
    </Resource>
 
 </Context>
